@@ -22777,7 +22777,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param142 = function param142() {
+      var param184 = function param184() {
         ie_open('article');
         ie_open('p');
         ie_open('strong');
@@ -22814,7 +22814,7 @@ babelHelpers;
         ie_close('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param142 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param184 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -23020,7 +23020,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param147 = function param147() {
+      var param189 = function param189() {
         ie_open('section');
         ie_open('p');
         ie_open('strong');
@@ -23055,7 +23055,7 @@ babelHelpers;
         ie_close('p');
         ie_close('section');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param147 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param189 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -23187,11 +23187,11 @@ babelHelpers;
      * @suppress {checkTypes}
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
-      var param161 = function param161() {
+      var param137 = function param137() {
         $templateAlias2({ section: opt_data.site.index.children[1] }, null, opt_ijData);
         $topics(opt_data, null, opt_ijData);
       };
-      $templateAlias1(soy.$$assignDefaults({ elementClasses: 'docs', content: param161 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ elementClasses: 'docs', content: param137 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -23255,18 +23255,18 @@ babelHelpers;
       ie_open('div', null, null, 'class', 'row');
       ie_open('div', null, null, 'class', 'col-md-13 col-md-offset-3 col-xs-16');
       ie_open('div', null, null, 'class', 'row');
-      var topicList184 = opt_data.site.index.children[1].children;
-      var topicListLen184 = topicList184.length;
-      for (var topicIndex184 = 0; topicIndex184 < topicListLen184; topicIndex184++) {
-        var topicData184 = topicList184[topicIndex184];
-        if (!topicData184.hidden) {
+      var topicList160 = opt_data.site.index.children[1].children;
+      var topicListLen160 = topicList160.length;
+      for (var topicIndex160 = 0; topicIndex160 < topicListLen160; topicIndex160++) {
+        var topicData160 = topicList160[topicIndex160];
+        if (!topicData160.hidden) {
           ie_open('div', null, null, 'class', 'col-md-6 col-xs-16');
-          ie_open('a', null, null, 'class', 'topic radial-out', 'href', topicData184.url);
+          ie_open('a', null, null, 'class', 'topic radial-out', 'href', topicData160.url);
           ie_open('div', null, null, 'class', 'topic-icon');
-          ie_void('span', null, null, 'class', 'icon-16-' + topicData184.icon);
+          ie_void('span', null, null, 'class', 'icon-16-' + topicData160.icon);
           ie_close('div');
           ie_open('h3', null, null, 'class', 'topic-title');
-          var dyn15 = topicData184.title;
+          var dyn15 = topicData160.title;
           if (typeof dyn15 == 'function') dyn15();else if (dyn15 != null) itext(dyn15);
           ie_close('h3');
           ie_close('a');
@@ -23388,7 +23388,7 @@ babelHelpers;
      * @suppress {checkTypes}
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
-      var param190 = function param190() {
+      var param166 = function param166() {
         $templateAlias2({ section: opt_data.site.index.children[1] }, null, opt_ijData);
         ie_open('div', null, null, 'class', 'sidebar-offset');
         ie_open('div', null, null, 'class', 'container-hybrid docs-home-top');
@@ -23413,7 +23413,7 @@ babelHelpers;
         ie_close('div');
         ie_close('div');
       };
-      $templateAlias1(soy.$$assignDefaults({ elementClasses: 'docs', content: param190 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ elementClasses: 'docs', content: param166 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -23519,7 +23519,7 @@ babelHelpers;
      * @suppress {checkTypes}
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
-      var param152 = function param152() {
+      var param194 = function param194() {
         ie_open('div');
         ie_open('header', null, null, 'class', 'header');
         ie_open('div', null, null, 'class', 'container');
@@ -23534,7 +23534,7 @@ babelHelpers;
         $templateAlias2({ updates: opt_data.page.updates }, null, opt_ijData);
         ie_close('div');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param152 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param194 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
